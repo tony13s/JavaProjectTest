@@ -24,10 +24,14 @@ InstallationofElasticSearch
 
 ## About
 
---First you have to run start.sql on mysql
---Then, Import the Project Test05 to Eclipse with Spring Tools
---To execute this project right click/ Run AS.../ Spring Web App
+First you have to run start.sql on mysql
+
+Then, Import the Project Test05 to Eclipse with Spring Tools
+
+To execute this project right click/ Run AS.../ Spring Web App
+
 With this example you can test in order to review the Test.
+
 Example:
 http://localhost:8082/link/users/2
 
