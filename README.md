@@ -12,15 +12,13 @@ Requirement: Java 8, Eclipse 2019-12, Maven 3.5.2,Spring 2.1.8, MySQL Database 5
 
 Compile and run the code
 
-InstallationofElasticSearch
+How to run ElasticSearch on Docker
 
-    Download and unpack the Elasticsearch official distribution.
-
-    Run bin/elasticsearch on Linux or macOS. Run bin\elasticsearch.bat on Windows.
-
-    Run curl -X GET http://localhost:9200/.
-
-    Start more servers …​
+    -docker build -t elasticsearchtony .
+    -docker run -p 9200:9200 -p 9300:9300 elasticsearchtony
+    
+    test:
+    Go to http://localhost:9200/
 
 ## About
 
@@ -33,7 +31,9 @@ To execute this project right click/ Run AS.../ Spring Web App
 With this example you can test in order to review the Test.
 
 Example:
-http://localhost:8082/link/users/2
+This example is about users and the expenses of the users with their salary. Every expenses is discount of the salary and monthly calculates wich category owns. 
+
+Go: http://localhost:8082/link/users/2
 
 on database the max-value is 5 so if you go to the link 5 times you will get the 404 page for each user
 
