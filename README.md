@@ -4,7 +4,7 @@ Author: Tony Sanginez
 
 Email: tony13s@hotmail.com
 
-Date: 13.02.2020 - 16.02.2020
+Date: 13.02.2020 - 21.02.2020
 
 ## Installation
 
