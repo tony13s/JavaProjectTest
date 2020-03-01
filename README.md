@@ -15,6 +15,7 @@ Compile and run the code
 How to run ElasticSearch on Docker
 
   1   docker-compose up -d
+  
   2   docker-compose up --build
      
     test:
