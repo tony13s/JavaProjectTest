@@ -14,9 +14,9 @@ Compile and run the code
 
 How to run ElasticSearch on Docker
 
-    -docker build -t elasticsearchtony .
-    -docker run -p 9200:9200 -p 9300:9300 elasticsearchtony
-    
+  1   docker-compose up -d
+  2   docker-compose up --build
+     
     test:
     Go to http://localhost:9200/
 
