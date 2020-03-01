@@ -9,6 +9,8 @@ import javax.servlet.http.HttpSession;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
@@ -41,12 +43,14 @@ public class ExpensesController {
 	@Autowired
 	private CreditScoreService creditScoreService;
 	
+	
 	@RequestMapping("users")
 	public String users(HttpServletRequest req) {
 //		HttpSession session =req.getSession();
 	//	String username = req.getParameter("username");
 		//session.setAttribute("username", username);
 		//ModelAndView mv = new ModelAndView();
+		
 		
 		return "users";
 	}

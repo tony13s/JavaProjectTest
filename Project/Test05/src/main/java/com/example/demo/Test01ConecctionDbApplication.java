@@ -8,10 +8,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 import com.example.demo.services.CreditScoreService;
 import com.example.demo.services.ExpensesService;
+import com.example.demo.services.HttpRequestLogService;
+import com.example.demo.services.HttpRequestLogServiceImpl;
 import com.example.demo.services.UsersService;
 
 @SpringBootApplication
-@Import({UsersService.class,ExpensesService.class,CreditScoreService.class})
+@Import({UsersService.class,ExpensesService.class,CreditScoreService.class,HttpRequestLogServiceImpl.class})
 @EnableScheduling
 public class Test01ConecctionDbApplication {
 
