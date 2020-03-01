@@ -14,6 +14,8 @@ Compile and run the code
 
 How to run ElasticSearch on Docker
 
+Go into your cmd to Docker folder and then execute this code:
+
   1   docker-compose up -d
   
   2   docker-compose up --build
